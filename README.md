@@ -6,7 +6,7 @@ Description of all major functions:
 | Function|	Description|	Parameters|	Page on Thesis |
 | ------------- | ------------- | ------------- | ------------- |
 |Main|	Used to execute the code|	Image name and path|	N/A|
-|MainCode	|Called by Main during each iteration	Image| name, path, range of radii, resize factor	|N/A|
+|MainCode	|Called by Main during each iteration	|Image name, path, range of radii, resize factor	|N/A|
 |frst2d	|Fast Radial Symmetry algorithm	|Image, radii range, alpha (constant = 2), stdFactor (constant = 0.1)	|15|
 |dist2points|	Calculates Euclidean distance between 2 points	|Coordinates of the 2 points|	N/A|
 |div	|Calculates divergence factor for edge-to-seed-point association|	Image, list of seed-points, list of edge-points| 	19|
