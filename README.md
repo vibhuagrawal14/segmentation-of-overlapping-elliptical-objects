@@ -14,7 +14,7 @@ Description of all major functions:
 |angle2points|	Calculates angle between 2 points (between -pi and pi)	|Coordinates of the 2 points|	N/A|
 |preprocessing|	Binarizes an image	|Threshold factor|	26|
 |EllipseDirectFit	|Fits an ellipse into the given data points|	List of data points	|22|
-|drawarc|	Draws a circular arc between 2 points using their linked seed-point	Association matrix| E, the 2 points for drawing arc| 	21|
+|drawarc|	Draws a circular arc between 2 points using their linked seed-point	|Association matrix E, the 2 points for drawing arc| 	21|
 |drawellipse|	Calculates standard ellipse parameters from equation, and draws ellipse between 2 points|	Association matrix E, the 2 points for drawing arc, ellipse equation coefficients	|27|
 
 
