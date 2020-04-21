@@ -1,6 +1,22 @@
-# Completing Overlapping Objects
-Image processing code for completing overlapping convex objects through ellipse fitting.
+# Completing Overlapping Elliptical Objects
 
+Image processing code for completing overlapping elliptical convex objects through ellipse fitting. This builds heavily on [Segmentation of Overlapping Elliptical Objects in Silhouette Images](https://ieeexplore.ieee.org/abstract/document/7300433) by Zafari et al. The following flowchart roughly describes the process:
+
+![Flowchart of the algorithm](/documentation/flowchart_clean.png)
+
+The entire pipeline can be broken down in to the following major steps:
+<img src="/documentation/Step1.png" width="70%">  
+<br><br>  
+  
+<img src="/documentation/Step 2.png" width="70%">  
+<br><br>   
+    
+<img src="/documentation/Step 3.png" width="70%">  
+<br><br>  
+  
+<img src="/documentation/Step 4.png" width="70%">  
+<br><br>  
+  
 Description of all major functions:
 
 | Function|	Description|	Parameters|	Page on Thesis |
