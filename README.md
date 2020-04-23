@@ -1,6 +1,6 @@
 # Completing Overlapping Elliptical Objects
 
-This builds heavily on [Segmentation of Overlapping Elliptical Objects in Silhouette Images](https://ieeexplore.ieee.org/abstract/document/7300433) by Zafari et al. The following flowchart roughly describes the process:
+This project uses fast radial symmetry (FRS) to detect seed points for convex objects, and assigns boundary pixels to seed-points using distance and gradient metrics. For each detected object (defined by each detected seed-point), an ellipse is fitted using the assigned edge pixels. This builds heavily on [Segmentation of Overlapping Elliptical Objects in Silhouette Images](https://ieeexplore.ieee.org/abstract/document/7300433) by Zafari et al. The following flowchart roughly describes the process:
 
 ![Flowchart of the algorithm](/documentation/flowchart_clean.png)
 
